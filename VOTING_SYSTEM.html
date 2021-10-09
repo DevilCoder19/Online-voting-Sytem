@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIVE A VOTE</title>
+</head>
+<link rel="stylesheet" href="Votingsystem.css">
+<body>
+    <div class="navbar">
+        <div id="item-1">
+                <img src="india flag.png" alt=""> 
+        </div>
+        <div id="item-2"><h1></h1></div>
+        <div id="item-3">
+            <img src="svvvlogo1.jpg" alt=""> 
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="line-1">
+<div class="box"  onclick="sub(1)">
+    <img src="HBD1.jpg" alt="">
+    <div class="box1" ></div>
+</div>
+<!--  -->
+<div class="box" onclick="sub(2)">
+    <img src="hav1.jpg" alt="" >
+    <div class="box2"></div></a>
+</div>
+<!--  -->
+<div class="box" onclick="sub(3)">
+    <img src="HBD2.jpg" alt="">
+    <div class="box3"></div>
+</div>
+<!--  -->
+
+</div>
+<div class="line-2">
+    <div class="box-center" onclick="sub(5)">
+        <img src="NOTA1.jpg" alt="">
+        <div class="box5">NOTA</div>
+    </div>
+</div>
+</div>
+
+<script>
+    var count = 0;
+    var x;
+    
+function sub(x)
+{
+    if(x==1)
+    {
+        count++;
+        alert("Your Vote Has Been Casted to BJP");
+        
+    }if(x==2)
+    {count++;
+        alert("Your Vote Has Been Casted to CONGRESS");
+    }if(x==3)
+    {count++;
+        alert("Your Vote Has Been Casted to AAP");
+    }if(x==4)
+    {count++;
+        alert("Your Vote Has Been Casted to SAMAJWADI PARTY");
+    }
+    if(x==5)
+    {count++;
+        alert("Your Vote Has Been Casted to NOTA");
+    }
+    if(count>0)
+    {
+        location.replace("thanks.html");
+    }
+}
+</script>
+</body>
+</html>

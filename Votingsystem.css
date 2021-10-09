@@ -1,0 +1,112 @@
+
+    .navbar{
+        width: 1515px;
+        display: flex;
+        
+    }
+    #item-2{
+        margin-left: 500px;
+        color: #ffa500;
+       
+    }
+    #item-1 img{     
+        width: 110px;
+        height: 80px;
+    }
+    #item-3 img{ 
+        margin-left: 500px;    
+        width: 100px;
+        height: 100px;
+    }
+    .container{
+        margin-left: 20px;
+        margin-top: 30px;
+        position: absolute;
+       border: 2px solid red;
+        width: 1515px;
+        height: 600px;
+    }
+    .box{
+        
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  width: 40%;
+         border: 2px solid black;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 80px;
+        margin-left: 80px; 
+    }
+    .box:hover{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: 3px solid rgba(96, 250, 6, 0.938);
+    }
+    .box img {
+    width: 260px;
+    height: 194px;
+    margin-left: -80px;
+    margin-top: -80px;
+}
+    .box1{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        
+    }    
+     .box2{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: -22px;
+
+    }   
+      .box3{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        
+    }    
+     .box4{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: -40px;
+    } 
+    .line-1{
+        padding: 10px;
+             
+    }
+    .line-2{
+        
+        padding: 10px;
+    }
+    .box-center{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  width: 40%;
+         border: 2px solid red;
+        display: inline-block;
+        width: 120px;
+        height: 100px;
+        padding: 80px;
+        margin-left: 600px; 
+    }
+    .box-center img{
+        width: 280px;
+    height: 194px;
+    margin-left: -80px;
+    margin-top: -80px;
+    }
+    .box-center:hover{
+        box-shadow: 0 25px 25px 0 rgba(0,0,0,0.5);
+        border: 3px solid rgba(96, 250, 6, 0.938);
+    }
+    .box5{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 10px;
+    }
